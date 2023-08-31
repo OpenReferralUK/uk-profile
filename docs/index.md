@@ -16,7 +16,8 @@ Contents:
    schema_reference
    api_reference
    erd
-   profile_compliance   
+   profile_compliance
+   `swagger API <../openapi.html>`_
    changelog
 
 ```
