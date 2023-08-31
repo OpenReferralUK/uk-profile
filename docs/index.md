@@ -17,7 +17,7 @@ Contents:
    api_reference
    erd
    profile_compliance
-   <../openapi.html>`_
+   `swagger API <../openapi.html>`_
    changelog
 
 ```
