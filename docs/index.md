@@ -21,10 +21,12 @@ Contents:
    profile_compliance
    Swagger API <../openapi.html>
    Swagger API <openapi.html>
+   Swagger API <./extras/openapi.html>
    [swagger API](/openapi.html)
    [swagger API](../openapi.html)
    [API reference](./extras/openapi.html)
    [API reference](https://porismdominicskinner.github.io/open_referral_uk_profile/)
+   Swagger API <https://porismdominicskinner.github.io/open_referral_uk_profile/)https://porismdominicskinner.github.io/open_referral_uk_profile/>
    changelog
 
 ```
