@@ -23,6 +23,7 @@ Contents:
    Swagger API <openapi.html>
    [swagger API](/openapi.html)
    [swagger API](../openapi.html)
+   [API reference](openapi.html)
    changelog
 
 ```
