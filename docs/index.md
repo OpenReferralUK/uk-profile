@@ -27,6 +27,7 @@ Contents:
    [API reference](./extras/openapi.html)
    [API reference](https://porismdominicskinner.github.io/open_referral_uk_profile/)
    Swagger API <https://porismdominicskinner.github.io/open_referral_uk_profile/>
+   API reference <./extras/openapi.html>
    changelog
 
 ```
