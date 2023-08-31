@@ -18,6 +18,8 @@ Contents:
    erd
    profile_compliance
    `swagger API <../openapi.html>`_
+   [swagger API](/openapi.html)
+   [swagger API](../openapi.html)
    changelog
 
 ```
