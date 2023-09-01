@@ -11,7 +11,7 @@ Although represented here as a set of relational tables and in the Open Knowledg
 ## What constitutes UK compliance?
 The standard is endorsed by the UK Government’s Central Digital & Data Office -  See [government guidance](https://www.gov.uk/government/publications/open-standards-for-government/record-and-share-information-about-public-services-in-local-authorities). Hence it is encouraged in local government and required where appropriate in central government.
 
-As Open Referral UK is an interchange standard, compliance means providing open API endpoints as described in the [API Reference](api_reference.md) and [Swagger](extras/openapi.html) documentation.
+As Open Referral UK is an interchange standard, compliance means providing open API endpoints as described in the [API Reference](api_reference.md) and [Swagger](../_static/openapi.html) documentation.
 
 API feeds compliant with the initial version of Open Referral UK can be [validated here](https://validator.openreferraluk.org/). Compliant feeds are listed on this [Dashboard](https://openreferraluk.org/dashboard). The Validator and Dashboard will soon be updated to work for the UK profile of HSDS 3.0 given here.
 
@@ -27,8 +27,6 @@ You can ask on the forum or email if you have a query about compliance.
 
 If you publish a compliant feed, [advise us by email](mailto:hello@operreferraluk.org) so we can add you to the Dashboard and publicise your work.
 
-
-Contents:
 
 ```{eval-rst}
 
