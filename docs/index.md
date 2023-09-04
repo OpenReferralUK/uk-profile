@@ -26,7 +26,6 @@ Use the [Open Referral Forum](https://forum.openreferral.org/) to stay up to dat
 You can ask on the forum or email if you have a query about compliance.
 
 If you publish a compliant feed, [advise us by email](mailto:hello@operreferraluk.org) so we can add you to the Dashboard and publicise your work.
-`click here <../_static/openapi.html>`_
 
 ```{eval-rst}
 
@@ -38,7 +37,7 @@ If you publish a compliant feed, [advise us by email](mailto:hello@operreferralu
    api_reference
    erd
    profile_compliance
-   API reference <../_static/openapi.html>
+   swagger_ui
    changelog
 
 ```
