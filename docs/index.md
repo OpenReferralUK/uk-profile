@@ -21,11 +21,11 @@ The main [Open Referral UK website](https://openreferraluk.org/) gives guidance 
 Changes from the initial version of Open Referral UK are listed in the [Changelog](changelog.md). Changes are largely to achieve consistency across tables and to remove parts of the initial standard that were not taken up.
 
 ## Consultation and Feedback
-Use the [Open Referral Forum](https://forum.openreferral.org/) to stay up to date, ask questions and share learning. Private matters can be raised by email to [hello@operreferraluk.org](mailto:hello@operreferraluk.org). 
+Use the [Open Referral Forum](https://forum.openreferral.org/) to stay up to date, ask questions and share learning. Private matters can be raised by email to [hello@openreferraluk.org](mailto:hello@openreferraluk.org). 
 
 You can ask on the forum or email if you have a query about compliance.
 
-If you publish a compliant feed, [advise us by email](mailto:hello@operreferraluk.org) so we can add you to the Dashboard and publicise your work.
+If you publish a compliant feed, [advise us by email](mailto:hello@openreferraluk.org) so we can add you to the Dashboard and publicise your work.
 
 ```{eval-rst}
 
