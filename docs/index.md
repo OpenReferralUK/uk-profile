@@ -38,17 +38,7 @@ If you publish a compliant feed, [advise us by email](mailto:hello@operreferralu
    api_reference
    erd
    profile_compliance
-   Swagger Mike <_static/openapi.html>
-   Swagger API <../openapi.html>
-   Swagger API <openapi.html>
-   Swagger API <./extras/openapi.html>
-   [swagger API](/openapi.html)
-   [swagger API](../openapi.html)
-   [API reference](./extras/openapi.html)
-   [API reference](https://porismdominicskinner.github.io/open_referral_uk_profile/)
-   Swagger API <https://porismdominicskinner.github.io/open_referral_uk_profile/>
-   API reference <./extras/openapi.html>
-   :doc:`Monty Python members <./extras/openapi.html>`
+   API reference <../_static/openapi.html>
    changelog
 
 ```
