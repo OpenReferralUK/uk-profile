@@ -37,7 +37,6 @@ If you publish a compliant feed, [advise us by email](mailto:hello@operreferralu
    api_reference
    erd
    profile_compliance
-   Swagger API <openapi.html>
    Swagger API <https://open-referral-uk-profile.readthedocs.io/en/latest/openapi.html>
    changelog
 
