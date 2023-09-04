@@ -1,6 +1,6 @@
 ```{eval-rst}
 
 .. raw:: html
-    :file: openapi.html
+    :file: ./extras/openapi.html
 
 ```
