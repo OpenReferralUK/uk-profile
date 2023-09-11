@@ -1,6 +1,6 @@
 # Open Referral UK
 
-These pages define the UK profile of the Open Referral - Human Services Data Specification version 3.0 (HSDS 3.0) and the associated Human Services Data Application Programming Interface (HSDA).
+These pages define the UK profile of the Open Referral - Human Services Data Specification version 3.0 (HSDS 3.0) and the associated Human Services Data Application Programming Interface (HSDA). The original UK profile was not versioned, we're now versioning to match the version number of the full HSDS from which the profile is defined.
 
 The profile is subject to consultation during September 2023. Thereafter it will be the official latest version of the Open Referral UK standard and publishers are encouraged to migrate to it from the version described in the [Open Referral UK developer pages](https://developers.openreferraluk.org/).
 
