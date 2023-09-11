@@ -33,11 +33,10 @@ If you publish a compliant feed, [advise us by email](mailto:hello@openreferralu
    :maxdepth: 1
    :caption: Reference
 
+   Swagger API <https://open-referral-uk-profile.readthedocs.io/en/latest/openapi.html>
    schema_reference
-   api_reference
    erd
    profile_compliance
-   Swagger API <https://open-referral-uk-profile.readthedocs.io/en/latest/openapi.html>
    changelog
 
 ```
