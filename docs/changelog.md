@@ -1,11 +1,6 @@
 # Changelog
 
-Use this page to provide a changelog for your Profile. Note that this is *different* to the changes which your Profile makes against core HSDS.
-
-You should look at external guidance to determine what makes a good changelog, or examples such as the [HSDS Changelog](http://docs.openreferral.org/en/latest/hsds/changelog.html).
-
-
-This section contains changes which are specific to the requirements for achieving UK compliance. For a list of changes to the broader HSDS standard, please see the [Changelog](changelog) page.
+This section contains changes that are specific to the requirements for achieving UK compliance. For a list of changes to the broader HSDS standard, please see the [Changelog](changelog) page.
 
 ## v3.0
 
