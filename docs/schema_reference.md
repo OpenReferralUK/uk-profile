@@ -1,8 +1,6 @@
 Schema Reference
 ================
 
-This is an automatically generated documentation page from the HSDS Example Profile. You should edit this introduction appropriately. You can also edit how this page displays your Profile schemas to make it more friendly for your implementors and data users.
-
 ## Objects and fields
 
 ### attribute
