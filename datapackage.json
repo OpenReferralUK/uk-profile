@@ -1521,6 +1521,15 @@
                         "example": "name",
                         "core": "Y"
                     }
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": "taxonomy_id",
+                        "reference": {
+                            "resource": "taxonomy",
+                            "fields": "id"
+                        }
+                    }
                 ]
             }
         },
@@ -1715,6 +1724,7 @@
             "name": "taxonomy",
             "path": "taxonomies.csv",
             "description": "The taxonomies from which taxonomy terms are taken.",
+            "allOf": [],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
