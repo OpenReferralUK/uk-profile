@@ -1,5 +1,36 @@
 {
   "id": "e94c9f38-1e8f-4564-91d4-d53501ab1765",
+  "location": {
+    "id": "3a19ff88-4620-4d17-9830-ac1d859eb5d5",
+    "name": "MyCity Civic Center",
+    "description": "MyCity Civic Center is located on Main Street and contains facilities for a number of civic and community services available.",
+    "latitude": 100,
+    "longitude": 101,
+    "external_identifier": "10092008082",
+    "external_identifier_type": "UPRN",
+    "addresses": [
+      {
+        "id": "74706e55-df26-4b84-80fe-ecc30b5befb4",
+        "attention": "A. Persona",
+        "address_1": "1-30 Main Street",
+        "city": "MyCity",
+        "region": "MyRegion",
+        "state_province": "MyState",
+        "postal_code": "ABC 1234",
+        "country": "US",
+        "address_type": "postal"
+      }
+    ],
+    "accessibility": [
+      {
+        "id": "afcf296e-1cb2-4139-9c88-33d587d1a50b",
+        "description": "The building is equipped with induction loops for hearing aids. Wheelchair access is possible on all levels.",
+        "details": "Switch hearing aid to T-coil to access the induction loop facility.",
+        "url": "http://example.com",
+        "accessibility": "The building is equipped with induction loops for hearing aids. Wheelchair access is possible on all levels."
+      }
+    ]
+  },
   "service": {
     "id": "ac148810-d857-441c-9679-408f346de14b",
     "name": "Community Counselling",

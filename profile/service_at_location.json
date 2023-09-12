@@ -4,7 +4,6 @@
      "contacts":null,
      "phones":null,
      "schedules":null,
-     "location":null,
      "attributes":null
    },
    "allOf": [

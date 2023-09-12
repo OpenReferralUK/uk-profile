@@ -45,6 +45,12 @@
       },
       "example": "3a19ff88-4620-4d17-9830-ac1d859eb5d5",
       "core": "Y"
+    },
+    "location": {
+      "name": "location",
+      "title": "Location",
+      "description": "The details of the locations where organizations operate. Locations may be virtual, and one organization may have many locations.",
+      "$ref": "location.json"
     }
   },
   "required": [

@@ -9,6 +9,15 @@
   "contents": [
     {
       "id": "e94c9f38-1e8f-4564-91d4-d53501ab1765",
+      "location": {
+        "id": "3a19ff88-4620-4d17-9830-ac1d859eb5d5",
+        "name": "MyCity Civic Center",
+        "description": "MyCity Civic Center is located on Main Street and contains facilities for a number of civic and community services available.",
+        "latitude": 100,
+        "longitude": 101,
+        "external_identifier": "10092008082",
+        "external_identifier_type": "UPRN"
+      },
       "service": {
         "id": "ac148810-d857-441c-9679-408f346de14b",
         "name": "Community Counselling",
