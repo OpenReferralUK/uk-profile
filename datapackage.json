@@ -562,15 +562,6 @@
                         },
                         "example": "UPRN"
                     }
-                ],
-                "foreignKeys": [
-                    {
-                        "fields": "organization_id",
-                        "reference": {
-                            "resource": "organization",
-                            "fields": "id"
-                        }
-                    }
                 ]
             }
         },
@@ -639,36 +630,6 @@
                             "unique": false
                         },
                         "example": "Our main reception phone number. The phones will be available from 0800 (8am) until 1800 (6pm) local time. There may be some slight delays in answering your call if we are busy."
-                    }
-                ],
-                "foreignKeys": [
-                    {
-                        "fields": "contact_id",
-                        "reference": {
-                            "resource": "contact",
-                            "fields": "id"
-                        }
-                    },
-                    {
-                        "fields": "location_id",
-                        "reference": {
-                            "resource": "location",
-                            "fields": "id"
-                        }
-                    },
-                    {
-                        "fields": "organization_id",
-                        "reference": {
-                            "resource": "organization",
-                            "fields": "id"
-                        }
-                    },
-                    {
-                        "fields": "service_id",
-                        "reference": {
-                            "resource": "service",
-                            "fields": "id"
-                        }
                     }
                 ]
             }
@@ -742,20 +703,6 @@
                     }
                 ],
                 "foreignKeys": [
-                    {
-                        "fields": "location_id",
-                        "reference": {
-                            "resource": "location",
-                            "fields": "id"
-                        }
-                    },
-                    {
-                        "fields": "organization_id",
-                        "reference": {
-                            "resource": "organization",
-                            "fields": "id"
-                        }
-                    },
                     {
                         "fields": "service_id",
                         "reference": {
@@ -1133,13 +1080,6 @@
                 ],
                 "foreignKeys": [
                     {
-                        "fields": "location_id",
-                        "reference": {
-                            "resource": "location",
-                            "fields": "id"
-                        }
-                    },
-                    {
                         "fields": "service_id",
                         "reference": {
                             "resource": "service",
@@ -1203,13 +1143,6 @@
                     }
                 ],
                 "foreignKeys": [
-                    {
-                        "fields": "organization_id",
-                        "reference": {
-                            "resource": "organization",
-                            "fields": "id"
-                        }
-                    },
                     {
                         "fields": "service_id",
                         "reference": {
@@ -1383,13 +1316,6 @@
                     }
                 ],
                 "foreignKeys": [
-                    {
-                        "fields": "location_id",
-                        "reference": {
-                            "resource": "location",
-                            "fields": "id"
-                        }
-                    },
                     {
                         "fields": "phone_id",
                         "reference": {

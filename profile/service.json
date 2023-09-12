@@ -7,7 +7,8 @@
      "application_process":null,
      "wait_time":null,
      "eligibility_description":null,
-      "licenses":null
+     "licenses":null,
+	 "phones":null
    },
    "allOf": [
      {"required": ["url"]} 

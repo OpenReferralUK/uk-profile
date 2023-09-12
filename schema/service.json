@@ -181,15 +181,6 @@
       },
       "example": "2023-03-15T10:30:45.123Z"
     },
-    "phones": {
-      "name": "phones",
-      "type": "array",
-      "title": "Phones",
-      "description": "The details of the telephone numbers used to contact organizations, services, and locations.",
-      "items": {
-        "$ref": "phone.json"
-      }
-    },
     "schedules": {
       "name": "schedules",
       "type": "array",

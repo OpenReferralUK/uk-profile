@@ -100,42 +100,6 @@
       },
       "example": "cd09a387-91f4-4555-94ec-e799c35344cd"
     },
-    "funding": {
-      "name": "funding",
-      "type": "array",
-      "title": "Funding",
-      "description": "The sources of funding for a service or organization.",
-      "items": {
-        "$ref": "funding.json"
-      }
-    },
-    "contacts": {
-      "name": "contacts",
-      "type": "array",
-      "title": "Contacts",
-      "description": "The details of the named contacts for services and organizations.",
-      "items": {
-        "$ref": "contact.json"
-      }
-    },
-    "phones": {
-      "name": "phones",
-      "type": "array",
-      "title": "Phones",
-      "description": "The details of the telephone numbers are used to contact organizations, services, and locations.",
-      "items": {
-        "$ref": "phone.json"
-      }
-    },
-    "locations": {
-      "name": "locations",
-      "type": "array",
-      "title": "Locations",
-      "description": "The details of the locations where organizations operate. Locations may be virtual, and one organization may have many locations.",
-      "items": {
-        "$ref": "location.json"
-      }
-    },
     "organization_identifiers": {
       "name": "organization_identifiers",
       "type": "array",

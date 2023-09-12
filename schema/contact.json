@@ -56,15 +56,6 @@
       "example": "Reception Manager",
       "core": "Y"
     },
-    "phones": {
-      "name": "phones",
-      "type": "array",
-      "title": "Phones",
-      "description": "The details of the telephone numbers used to contact organizations, services, and locations.",
-      "items": {
-        "$ref": "phone.json"
-      }
-    },
     "attributes": {
       "name": "attributes",
       "type": "array",

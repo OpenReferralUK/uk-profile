@@ -4,7 +4,11 @@
      "url": null,
      "organization_id": null,
      "alternate_name": null,
-     "transportation": null
+     "transportation": null,
+	 "phones": null,
+	 "contacts":null,
+	 "schedules":null,
+	 "languages":null
    },
    "allOf": [
      {"required": ["url"]} 

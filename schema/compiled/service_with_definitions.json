@@ -181,15 +181,6 @@
       },
       "example": "2023-03-15T10:30:45.123Z"
     },
-    "phones": {
-      "name": "phones",
-      "type": "array",
-      "title": "Phones",
-      "description": "The details of the telephone numbers used to contact organizations, services, and locations.",
-      "items": {
-        "$ref": "#/definitions/phone"
-      }
-    },
     "schedules": {
       "name": "schedules",
       "type": "array",
@@ -386,42 +377,6 @@
             "unique": false
           },
           "example": "cd09a387-91f4-4555-94ec-e799c35344cd"
-        },
-        "funding": {
-          "name": "funding",
-          "type": "array",
-          "title": "Funding",
-          "description": "The sources of funding for a service or organization.",
-          "items": {
-            "$ref": "#/definitions/funding"
-          }
-        },
-        "contacts": {
-          "name": "contacts",
-          "type": "array",
-          "title": "Contacts",
-          "description": "The details of the named contacts for services and organizations.",
-          "items": {
-            "$ref": "#/definitions/contact"
-          }
-        },
-        "phones": {
-          "name": "phones",
-          "type": "array",
-          "title": "Phones",
-          "description": "The details of the telephone numbers are used to contact organizations, services, and locations.",
-          "items": {
-            "$ref": "#/definitions/phone"
-          }
-        },
-        "locations": {
-          "name": "locations",
-          "type": "array",
-          "title": "Locations",
-          "description": "The details of the locations where organizations operate. Locations may be virtual, and one organization may have many locations.",
-          "items": {
-            "$ref": "#/definitions/location"
-          }
         },
         "organization_identifiers": {
           "name": "organization_identifiers",
@@ -665,15 +620,6 @@
           },
           "example": "UPRN"
         },
-        "languages": {
-          "name": "languages",
-          "type": "array",
-          "title": "Languages",
-          "description": "The languages that are spoken at locations or services. This does not include languages which can only be used with interpretation.",
-          "items": {
-            "$ref": "#/definitions/language"
-          }
-        },
         "addresses": {
           "name": "addresses",
           "type": "array",
@@ -683,15 +629,6 @@
             "$ref": "#/definitions/address"
           }
         },
-        "contacts": {
-          "name": "contacts",
-          "type": "array",
-          "title": "Contacts",
-          "description": "The details of the named contacts for services and organizations. Note that in the HSDS data package format, if an individual is the contact for multiple services, their details may be duplicated multiple times in this table, each time with a new identifier, and with the rows containing different service ids.",
-          "items": {
-            "$ref": "#/definitions/contact"
-          }
-        },
         "accessibility": {
           "name": "accessibility",
           "type": "array",
@@ -699,24 +636,6 @@
           "description": "The details of the arrangements for access to locations for people who have disabilities",
           "items": {
             "$ref": "#/definitions/accessibility"
-          }
-        },
-        "phones": {
-          "name": "phones",
-          "type": "array",
-          "title": "Phones",
-          "description": "The details of the telephone numbers used to contact organizations, services, and locations.",
-          "items": {
-            "$ref": "#/definitions/phone"
-          }
-        },
-        "schedules": {
-          "name": "schedules",
-          "type": "array",
-          "title": "Schedules",
-          "description": "The details of when a service or location is open. Entries are RFC 5545 RRULES.",
-          "items": {
-            "$ref": "#/definitions/schedule"
           }
         },
         "attributes": {
@@ -877,15 +796,6 @@
           },
           "example": "Reception Manager",
           "core": "Y"
-        },
-        "phones": {
-          "name": "phones",
-          "type": "array",
-          "title": "Phones",
-          "description": "The details of the telephone numbers used to contact organizations, services, and locations.",
-          "items": {
-            "$ref": "#/definitions/phone"
-          }
         },
         "attributes": {
           "name": "attributes",
