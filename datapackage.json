@@ -397,6 +397,15 @@
                         "example": "link_type",
                         "core": "Y"
                     }
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": "taxonomy_term_id",
+                        "reference": {
+                            "resource": "taxonomy_term",
+                            "fields": "id"
+                        }
+                    }
                 ]
             }
         },
