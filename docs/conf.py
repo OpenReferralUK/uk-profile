@@ -449,72 +449,72 @@ directives.register_directive('jsontableschemainclude', JSONTableSchemaInclude)
 
 
 #------------------------------------------- Generate ERDs
-#import jts_erd
-#import copy
-#import csv
-#with open('../datapackage.json', 'r') as f:
-#        datapackage = json.load(f)
-#
-#svg_style_rule = '@font-face{font-family:"Lato";font-style:normal;font-weight:400;src:local("Lato Regular"),local("Lato-Regular"),url(../_static/fonts/Lato-Regular.ttf) format("truetype")}'
-#
-## Load core tables
-#core_tables = []
-#with open('../core_tables.csv', 'r') as f:
-#    core_tables_reader = csv.reader(f)
-#    next(core_tables_reader) # lose header row
-#    for row in core_tables_reader:
-#        core_tables.append(row[0])
-#
-##---- Full ERD
-#html_color_header_for_table = {}
-#for core_table in core_tables:
-#    html_color_header_for_table[core_table] = '#77DD77'
-#jts_erd.save_svg(
-#        datapackage,
-#        'extras/_images/entity_relationship_diagram.svg',
-#        display_columns=True,
-#        display_indexes=True,
-#        display_tooltips=False,
-#        fontname="Lato",
-#        html_color_header='#AEC6CF',
-#        html_color_header_for_table=html_color_header_for_table,
-#        html_color_default='#DDDDDD',
-#        html_color_highlight='#DDDDDD',
-#        default_namespace_name='human_services_data',
-#        rankdir='RL',
-#    )
-#openreferral.svg_utils.insert_style_rule_to_svg('extras/_images/entity_relationship_diagram.svg', svg_style_rule)
-#
-##---- Core Tables ERD
-#
-## Make datapackge with core tables only
-#datapackage_core_tables_only = copy.deepcopy(datapackage)
-#new_resources = []
-#for resource in datapackage_core_tables_only['resources']:
-#    if resource['name'] in core_tables:
-#        # Make sure we only have foreign keys to tables that also exist in this limited list.
-#        # Otherwise jts_erd will crash as it can't find the other half of a foreign key
-#        resource['schema']['foreignKeys'] = \
-#            [i for i in resource['schema'].get('foreignKeys',[]) if i['reference']['resource'] in core_tables]
-#        new_resources.append(resource)
-#datapackage_core_tables_only['resources'] = new_resources
-#
-## Write ERD
-#jts_erd.save_svg(
-#    datapackage_core_tables_only,
-#    'extras/_images/entity_relationship_diagram_core_tables.svg',
-#    display_columns=True,
-#    display_indexes=True,
-#    display_tooltips=False,
-#    fontname="Lato",
-#    html_color_header='#77DD77',
-#    html_color_default='#DDDDDD',
-#    html_color_highlight='#DDDDDD',
-#    default_namespace_name='human_services_data',
-#    rankdir='RL',
-#)
-#openreferral.svg_utils.insert_style_rule_to_svg('extras/_images/entity_relationship_diagram_core_tables.svg', svg_style_rule)
-#
+import jts_erd
+import copy
+import csv
+with open('../datapackage.json', 'r') as f:
+       datapackage = json.load(f)
+
+svg_style_rule = '@font-face{font-family:"Lato";font-style:normal;font-weight:400;src:local("Lato Regular"),local("Lato-Regular"),url(../_static/fonts/Lato-Regular.ttf) format("truetype")}'
+
+# Load core tables
+core_tables = []
+with open('../core_tables.csv', 'r') as f:
+   core_tables_reader = csv.reader(f)
+   next(core_tables_reader) # lose header row
+   for row in core_tables_reader:
+       core_tables.append(row[0])
+
+#---- Full ERD
+html_color_header_for_table = {}
+for core_table in core_tables:
+   html_color_header_for_table[core_table] = '#77DD77'
+jts_erd.save_svg(
+       datapackage,
+       'extras/_images/entity_relationship_diagram.svg',
+       display_columns=True,
+       display_indexes=True,
+       display_tooltips=False,
+       fontname="Lato",
+       html_color_header='#AEC6CF',
+       html_color_header_for_table=html_color_header_for_table,
+       html_color_default='#DDDDDD',
+       html_color_highlight='#DDDDDD',
+       default_namespace_name='human_services_data',
+       rankdir='RL',
+   )
+openreferral.svg_utils.insert_style_rule_to_svg('extras/_images/entity_relationship_diagram.svg', svg_style_rule)
+
+#---- Core Tables ERD
+
+# Make datapackge with core tables only
+datapackage_core_tables_only = copy.deepcopy(datapackage)
+new_resources = []
+for resource in datapackage_core_tables_only['resources']:
+   if resource['name'] in core_tables:
+       # Make sure we only have foreign keys to tables that also exist in this limited list.
+       # Otherwise jts_erd will crash as it can't find the other half of a foreign key
+       resource['schema']['foreignKeys'] = \
+           [i for i in resource['schema'].get('foreignKeys',[]) if i['reference']['resource'] in core_tables]
+       new_resources.append(resource)
+datapackage_core_tables_only['resources'] = new_resources
+
+# Write ERD
+jts_erd.save_svg(
+   datapackage_core_tables_only,
+   'extras/_images/entity_relationship_diagram_core_tables.svg',
+   display_columns=True,
+   display_indexes=True,
+   display_tooltips=False,
+   fontname="Lato",
+   html_color_header='#77DD77',
+   html_color_default='#DDDDDD',
+   html_color_highlight='#DDDDDD',
+   default_namespace_name='human_services_data',
+   rankdir='RL',
+)
+openreferral.svg_utils.insert_style_rule_to_svg('extras/_images/entity_relationship_diagram_core_tables.svg', svg_style_rule)
+
 
 def setup(app):
     import glob
