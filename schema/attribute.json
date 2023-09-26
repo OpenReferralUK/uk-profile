@@ -56,6 +56,12 @@
       },
       "example": "link_type",
       "core": "Y"
+    },
+    "taxonomy_term": {
+      "name": "taxonomy_term",
+      "title": "Taxonomy Term",
+      "description": "Each service can be categorized according to one or more taxonomy terms. The taxonomy_term object contains a list of taxonomy terms, their names, and, for hierarchical taxonomies, their structure.",
+      "$ref": "taxonomy_term.json"
     }
   },
   "required": [

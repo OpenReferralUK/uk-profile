@@ -1529,19 +1529,6 @@
                         },
                         "example": "name",
                         "core": "Y"
-                    },
-                    {
-                        "name": "attributes",
-                        "type": "array",
-                        "title": "Attributes",
-                        "description": "A link between a attribute and one or more taxonomy terms.",
-                        "constraints": {
-                            "required": false,
-                            "unique": false
-                        },
-                        "items": {
-                            "$ref": "attribute.json"
-                        }
                     }
                 ],
                 "foreignKeys": [
