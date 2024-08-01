@@ -321,7 +321,6 @@
                       "name",
                       "description"
                     ],
-                    "allOf": [],
                     "title": "Taxonomy Term"
                   }
                 },
@@ -332,8 +331,7 @@
                   "link_id",
                   "taxonomy_term_id",
                   "link_entity"
-                ],
-                "allOf": []
+                ]
               }
             }
           },
@@ -497,7 +495,6 @@
                 "name",
                 "description"
               ],
-              "allOf": [],
               "title": "Taxonomy Term"
             }
           },
@@ -508,8 +505,7 @@
             "link_id",
             "taxonomy_term_id",
             "link_entity"
-          ],
-          "allOf": []
+          ]
         }
       },
       "services": {
@@ -902,14 +898,8 @@
                   }
                 },
                 "required": [
-                  "id"
-                ],
-                "allOf": [
-                  {
-                    "required": [
-                      "url"
-                    ]
-                  }
+                  "id",
+                  "url"
                 ]
               }
             },
@@ -1009,8 +999,7 @@
                 },
                 "required": [
                   "id"
-                ],
-                "allOf": []
+                ]
               }
             },
             "service_at_locations": {
@@ -1438,7 +1427,6 @@
                                       "name",
                                       "description"
                                     ],
-                                    "allOf": [],
                                     "title": "Taxonomy Term"
                                   }
                                 },
@@ -1449,8 +1437,7 @@
                                   "link_id",
                                   "taxonomy_term_id",
                                   "link_entity"
-                                ],
-                                "allOf": []
+                                ]
                               }
                             }
                           },
@@ -1462,8 +1449,7 @@
                             "postal_code",
                             "country",
                             "address_type"
-                          ],
-                          "allOf": []
+                          ]
                         }
                       },
                       "accessibility": {
@@ -1689,7 +1675,6 @@
                                       "name",
                                       "description"
                                     ],
-                                    "allOf": [],
                                     "title": "Taxonomy Term"
                                   }
                                 },
@@ -1700,8 +1685,7 @@
                                   "link_id",
                                   "taxonomy_term_id",
                                   "link_entity"
-                                ],
-                                "allOf": []
+                                ]
                               }
                             },
                             "accessibility": {
@@ -1718,8 +1702,7 @@
                           },
                           "required": [
                             "id"
-                          ],
-                          "allOf": []
+                          ]
                         }
                       },
                       "attributes": {
@@ -1872,7 +1855,6 @@
                                 "name",
                                 "description"
                               ],
-                              "allOf": [],
                               "title": "Taxonomy Term"
                             }
                           },
@@ -1883,21 +1865,14 @@
                             "link_id",
                             "taxonomy_term_id",
                             "link_entity"
-                          ],
-                          "allOf": []
+                          ]
                         }
                       }
                     },
                     "required": [
                       "id",
-                      "location_type"
-                    ],
-                    "allOf": [
-                      {
-                        "required": [
-                          "url"
-                        ]
-                      }
+                      "location_type",
+                      "url"
                     ],
                     "title": "Location"
                   }
@@ -1908,8 +1883,7 @@
                 "tabular_required": [
                   "service_id",
                   "location_id"
-                ],
-                "allOf": []
+                ]
               }
             },
             "languages": {
@@ -1966,14 +1940,8 @@
                   }
                 },
                 "required": [
-                  "id"
-                ],
-                "allOf": [
-                  {
-                    "required": [
-                      "url"
-                    ]
-                  }
+                  "id",
+                  "url"
                 ]
               }
             },
@@ -2298,7 +2266,6 @@
                                 "name",
                                 "description"
                               ],
-                              "allOf": [],
                               "title": "Taxonomy Term"
                             }
                           },
@@ -2309,8 +2276,7 @@
                             "link_id",
                             "taxonomy_term_id",
                             "link_entity"
-                          ],
-                          "allOf": []
+                          ]
                         }
                       }
                     },
@@ -2474,7 +2440,6 @@
                           "name",
                           "description"
                         ],
-                        "allOf": [],
                         "title": "Taxonomy Term"
                       }
                     },
@@ -2485,8 +2450,7 @@
                       "link_id",
                       "taxonomy_term_id",
                       "link_entity"
-                    ],
-                    "allOf": []
+                    ]
                   }
                 }
               },
@@ -2495,7 +2459,6 @@
                 "name",
                 "description"
               ],
-              "allOf": [],
               "title": "Organization"
             },
             "funding": {
@@ -2549,14 +2512,8 @@
                   }
                 },
                 "required": [
-                  "id"
-                ],
-                "allOf": [
-                  {
-                    "required": [
-                      "url"
-                    ]
-                  }
+                  "id",
+                  "url"
                 ]
               }
             },
@@ -2653,17 +2610,11 @@
                   }
                 },
                 "required": [
-                  "id"
+                  "id",
+                  "url"
                 ],
                 "tabular_required": [
                   "service_id"
-                ],
-                "allOf": [
-                  {
-                    "required": [
-                      "url"
-                    ]
-                  }
                 ]
               }
             },
@@ -2880,7 +2831,6 @@
                             "name",
                             "description"
                           ],
-                          "allOf": [],
                           "title": "Taxonomy Term"
                         }
                       },
@@ -2891,20 +2841,13 @@
                         "link_id",
                         "taxonomy_term_id",
                         "link_entity"
-                      ],
-                      "allOf": []
+                      ]
                     }
                   }
                 },
                 "required": [
-                  "id"
-                ],
-                "allOf": [
-                  {
-                    "required": [
-                      "url"
-                    ]
-                  }
+                  "id",
+                  "url"
                 ]
               }
             },
@@ -3058,7 +3001,6 @@
                       "name",
                       "description"
                     ],
-                    "allOf": [],
                     "title": "Taxonomy Term"
                   }
                 },
@@ -3069,25 +3011,18 @@
                   "link_id",
                   "taxonomy_term_id",
                   "link_entity"
-                ],
-                "allOf": []
+                ]
               }
             }
           },
           "required": [
             "id",
             "name",
-            "status"
+            "status",
+            "url"
           ],
           "tabular_required": [
             "organization_id"
-          ],
-          "allOf": [
-            {
-              "required": [
-                "url"
-              ]
-            }
           ]
         }
       }
@@ -3096,7 +3031,6 @@
       "id",
       "name",
       "description"
-    ],
-    "allOf": []
+    ]
   }
 }

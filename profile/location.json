@@ -10,7 +10,10 @@
 	 "schedules":null,
 	 "languages":null
    },
-   "allOf": [
-     {"required": ["url"]} 
-   ]
+  "required": [
+    "id",
+    "location_type",
+	"url"
+  ],
+   "allOf": null
 }

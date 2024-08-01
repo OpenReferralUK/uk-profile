@@ -14,6 +14,5 @@
       "core": "Y"
     }
    },
-   "allOf": [
-   ]
+   "allOf": null
 }

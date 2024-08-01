@@ -5,6 +5,5 @@
    "properties": {
      "address_2":null
    },
-   "allOf": [
-   ]
+   "allOf": null
 }

@@ -137,14 +137,8 @@
       },
       "required": [
         "id",
-        "location_type"
-      ],
-      "allOf": [
-        {
-          "required": [
-            "url"
-          ]
-        }
+        "location_type",
+        "url"
       ],
       "title": "Location"
     },
@@ -439,24 +433,17 @@
             "name",
             "description"
           ],
-          "allOf": [],
           "title": "Organization"
         }
       },
       "required": [
         "id",
         "name",
-        "status"
+        "status",
+        "url"
       ],
       "tabular_required": [
         "organization_id"
-      ],
-      "allOf": [
-        {
-          "required": [
-            "url"
-          ]
-        }
       ]
     }
   },
@@ -466,6 +453,5 @@
   "tabular_required": [
     "service_id",
     "location_id"
-  ],
-  "allOf": []
+  ]
 }

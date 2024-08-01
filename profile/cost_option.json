@@ -3,7 +3,9 @@
      "currency": null,
      "attributes": null
    },
-   "allOf": [
-     {"required": ["url"]} 
-   ]
+  "required": [
+    "id",
+	"url"
+  ],
+   "allOf": null
 }

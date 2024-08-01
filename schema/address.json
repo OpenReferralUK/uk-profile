@@ -145,6 +145,5 @@
     "postal_code",
     "country",
     "address_type"
-  ],
-  "allOf": []
+  ]
 }

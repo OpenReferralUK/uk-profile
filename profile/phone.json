@@ -8,7 +8,10 @@
      "type": null,
      "attributes": null
    },
-   "allOf": [
-     {"required": ["url"]} 
-   ]
+  "required": [
+    "id",
+    "number",
+	"url"
+  ],
+   "allOf": null
 }

@@ -59,6 +59,5 @@
   "tabular_required": [
     "service_id",
     "location_id"
-  ],
-  "allOf": []
+  ]
 }

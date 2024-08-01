@@ -67,13 +67,7 @@
   },
   "required": [
     "id",
-    "number"
-  ],
-  "allOf": [
-    {
-      "required": [
-        "url"
-      ]
-    }
+    "number",
+    "url"
   ]
 }

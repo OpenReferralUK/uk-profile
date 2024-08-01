@@ -105,6 +105,5 @@
     "id",
     "name",
     "description"
-  ],
-  "allOf": []
+  ]
 }

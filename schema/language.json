@@ -47,13 +47,7 @@
     }
   },
   "required": [
-    "id"
-  ],
-  "allOf": [
-    {
-      "required": [
-        "url"
-      ]
-    }
+    "id",
+    "url"
   ]
 }

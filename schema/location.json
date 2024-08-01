@@ -116,13 +116,7 @@
   },
   "required": [
     "id",
-    "location_type"
-  ],
-  "allOf": [
-    {
-      "required": [
-        "url"
-      ]
-    }
+    "location_type",
+    "url"
   ]
 }

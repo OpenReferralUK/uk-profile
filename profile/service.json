@@ -10,7 +10,11 @@
      "licenses":null,
 	 "phones":null
    },
-   "allOf": [
-     {"required": ["url"]} 
-   ]
+  "required": [
+    "id",
+    "name",
+    "status",
+	"url"
+  ],
+   "allOf": null
 }

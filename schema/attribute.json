@@ -71,6 +71,5 @@
     "link_id",
     "taxonomy_term_id",
     "link_entity"
-  ],
-  "allOf": []
+  ]
 }

@@ -263,17 +263,11 @@
   "required": [
     "id",
     "name",
-    "status"
+    "status",
+    "url"
   ],
   "tabular_required": [
     "organization_id"
-  ],
-  "allOf": [
-    {
-      "required": [
-        "url"
-      ]
-    }
   ],
   "definitions": {
     "organization": {
@@ -401,8 +395,7 @@
         "id",
         "name",
         "description"
-      ],
-      "allOf": []
+      ]
     },
     "attribute": {
       "name": "attribute",
@@ -477,8 +470,7 @@
         "link_id",
         "taxonomy_term_id",
         "link_entity"
-      ],
-      "allOf": []
+      ]
     },
     "service_at_location": {
       "name": "service_at_location",
@@ -541,8 +533,7 @@
       "tabular_required": [
         "service_id",
         "location_id"
-      ],
-      "allOf": []
+      ]
     },
     "location": {
       "name": "location",
@@ -662,14 +653,8 @@
       },
       "required": [
         "id",
-        "location_type"
-      ],
-      "allOf": [
-        {
-          "required": [
-            "url"
-          ]
-        }
+        "location_type",
+        "url"
       ]
     },
     "phone": {
@@ -741,14 +726,8 @@
       },
       "required": [
         "id",
-        "number"
-      ],
-      "allOf": [
-        {
-          "required": [
-            "url"
-          ]
-        }
+        "number",
+        "url"
       ]
     },
     "contact": {
@@ -820,14 +799,8 @@
         }
       },
       "required": [
-        "id"
-      ],
-      "allOf": [
-        {
-          "required": [
-            "url"
-          ]
-        }
+        "id",
+        "url"
       ]
     },
     "address": {
@@ -977,8 +950,7 @@
         "postal_code",
         "country",
         "address_type"
-      ],
-      "allOf": []
+      ]
     },
     "schedule": {
       "name": "schedule",
@@ -1180,14 +1152,8 @@
         }
       },
       "required": [
-        "id"
-      ],
-      "allOf": [
-        {
-          "required": [
-            "url"
-          ]
-        }
+        "id",
+        "url"
       ]
     },
     "funding": {
@@ -1236,14 +1202,8 @@
         }
       },
       "required": [
-        "id"
-      ],
-      "allOf": [
-        {
-          "required": [
-            "url"
-          ]
-        }
+        "id",
+        "url"
       ]
     },
     "service_area": {
@@ -1337,8 +1297,7 @@
       },
       "required": [
         "id"
-      ],
-      "allOf": []
+      ]
     },
     "language": {
       "name": "language",
@@ -1389,14 +1348,8 @@
         }
       },
       "required": [
-        "id"
-      ],
-      "allOf": [
-        {
-          "required": [
-            "url"
-          ]
-        }
+        "id",
+        "url"
       ]
     },
     "accessibility": {
@@ -1490,8 +1443,7 @@
       },
       "required": [
         "id"
-      ],
-      "allOf": []
+      ]
     },
     "taxonomy_term": {
       "name": "taxonomy_term",
@@ -1578,8 +1530,7 @@
         "id",
         "name",
         "description"
-      ],
-      "allOf": []
+      ]
     },
     "cost_option": {
       "name": "cost_option",
@@ -1669,17 +1620,11 @@
         }
       },
       "required": [
-        "id"
+        "id",
+        "url"
       ],
       "tabular_required": [
         "service_id"
-      ],
-      "allOf": [
-        {
-          "required": [
-            "url"
-          ]
-        }
       ]
     },
     "organization_identifier": {
@@ -1843,8 +1788,7 @@
         "id",
         "name",
         "description"
-      ],
-      "allOf": []
+      ]
     }
   }
 }

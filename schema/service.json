@@ -263,16 +263,10 @@
   "required": [
     "id",
     "name",
-    "status"
+    "status",
+    "url"
   ],
   "tabular_required": [
     "organization_id"
-  ],
-  "allOf": [
-    {
-      "required": [
-        "url"
-      ]
-    }
   ]
 }

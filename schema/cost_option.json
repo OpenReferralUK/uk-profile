@@ -86,16 +86,10 @@
     }
   },
   "required": [
-    "id"
+    "id",
+    "url"
   ],
   "tabular_required": [
     "service_id"
-  ],
-  "allOf": [
-    {
-      "required": [
-        "url"
-      ]
-    }
   ]
 }

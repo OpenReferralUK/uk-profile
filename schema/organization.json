@@ -123,6 +123,5 @@
     "id",
     "name",
     "description"
-  ],
-  "allOf": []
+  ]
 }
