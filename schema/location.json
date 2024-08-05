@@ -116,7 +116,6 @@
   },
   "required": [
     "id",
-    "location_type",
-    "url"
+    "location_type"
   ]
 }

@@ -7,8 +7,7 @@
      "attributes": null
    },
   "required": [
-    "id",
-	"url"
+    "id"
   ],
    "allOf": null
 }

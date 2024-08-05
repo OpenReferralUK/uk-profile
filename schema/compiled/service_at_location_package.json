@@ -864,8 +864,7 @@
         },
         "required": [
           "id",
-          "location_type",
-          "url"
+          "location_type"
         ],
         "title": "Location"
       },
@@ -1257,8 +1256,7 @@
                 }
               },
               "required": [
-                "id",
-                "url"
+                "id"
               ]
             }
           },
@@ -1415,8 +1413,7 @@
                 }
               },
               "required": [
-                "id",
-                "url"
+                "id"
               ]
             }
           },
@@ -1987,8 +1984,7 @@
                 }
               },
               "required": [
-                "id",
-                "url"
+                "id"
               ]
             }
           },
@@ -2085,8 +2081,7 @@
                 }
               },
               "required": [
-                "id",
-                "url"
+                "id"
               ],
               "tabular_required": [
                 "service_id"
@@ -2321,8 +2316,7 @@
                 }
               },
               "required": [
-                "id",
-                "url"
+                "id"
               ]
             }
           },
@@ -2493,8 +2487,7 @@
         "required": [
           "id",
           "name",
-          "status",
-          "url"
+          "status"
         ],
         "tabular_required": [
           "organization_id"

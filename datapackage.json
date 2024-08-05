@@ -189,7 +189,7 @@
                         "description": "URL of the service",
                         "format": "uri",
                         "constraints": {
-                            "required": true,
+                            "required": false,
                             "unique": false
                         },
                         "example": "http://example.com/counselling",

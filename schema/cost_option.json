@@ -86,8 +86,7 @@
     }
   },
   "required": [
-    "id",
-    "url"
+    "id"
   ],
   "tabular_required": [
     "service_id"

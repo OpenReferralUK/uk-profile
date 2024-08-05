@@ -137,8 +137,7 @@
       },
       "required": [
         "id",
-        "location_type",
-        "url"
+        "location_type"
       ],
       "title": "Location"
     },
@@ -439,8 +438,7 @@
       "required": [
         "id",
         "name",
-        "status",
-        "url"
+        "status"
       ],
       "tabular_required": [
         "organization_id"

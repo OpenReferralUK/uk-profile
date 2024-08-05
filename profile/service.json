@@ -13,8 +13,7 @@
   "required": [
     "id",
     "name",
-    "status",
-	"url"
+    "status"
   ],
    "allOf": null
 }
