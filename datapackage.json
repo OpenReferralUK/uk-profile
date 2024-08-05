@@ -15,7 +15,6 @@
             "name": "organization",
             "path": "organizations.csv",
             "description": "The details about each organization delivering services. Each service should be linked to the organization responsible for its delivery. One organization may deliver many services.",
-            "allOf": [],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
@@ -127,13 +126,6 @@
             "name": "service",
             "path": "services.csv",
             "description": "The details of the services provided by organizations to a range of different groups.",
-            "allOf": [
-                {
-                    "required": [
-                        "url"
-                    ]
-                }
-            ],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
@@ -197,7 +189,7 @@
                         "description": "URL of the service",
                         "format": "uri",
                         "constraints": {
-                            "required": false,
+                            "required": true,
                             "unique": false
                         },
                         "example": "http://example.com/counselling",
@@ -339,7 +331,6 @@
             "name": "attribute",
             "path": "attribute.csv",
             "description": "The other_attributes table creates a link between entities other than service and one or more classifications that describe the entity.",
-            "allOf": [],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
@@ -413,7 +404,6 @@
             "name": "service_at_location",
             "path": "service_at_location.csv",
             "description": "A link between a service and a specific location.",
-            "allOf": [],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
@@ -482,13 +472,6 @@
             "name": "location",
             "path": "locations.csv",
             "description": "The locations where organizations operate. Locations may be virtual, and one organization may have many locations.",
-            "allOf": [
-                {
-                    "required": [
-                        "url"
-                    ]
-                }
-            ],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
@@ -585,13 +568,6 @@
             "name": "phone",
             "path": "phones.csv",
             "description": "The details of the telephone numbers used to contact organizations, services, and locations.",
-            "allOf": [
-                {
-                    "required": [
-                        "url"
-                    ]
-                }
-            ],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
@@ -654,13 +630,6 @@
             "name": "contact",
             "path": "contacts.csv",
             "description": "The details of the named contacts for services and organizations.",
-            "allOf": [
-                {
-                    "required": [
-                        "url"
-                    ]
-                }
-            ],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
@@ -733,7 +702,6 @@
             "name": "address",
             "path": "address.csv",
             "description": "The addresses table contains the physical addresses for locations",
-            "allOf": [],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
@@ -883,13 +851,6 @@
             "name": "schedule",
             "path": "schedule.csv",
             "description": "The details of when a service or location is open. Entries are RFC 5545 RRULES.",
-            "allOf": [
-                {
-                    "required": [
-                        "url"
-                    ]
-                }
-            ],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
@@ -1109,13 +1070,6 @@
             "name": "funding",
             "path": "funding.csv",
             "description": "The sources of funding for a service or organization.",
-            "allOf": [
-                {
-                    "required": [
-                        "url"
-                    ]
-                }
-            ],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
@@ -1173,7 +1127,6 @@
             "name": "service_area",
             "path": "service_areas.csv",
             "description": "The details of the geographic area for which a service is available.",
-            "allOf": [],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
@@ -1279,13 +1232,6 @@
             "name": "language",
             "path": "languages.csv",
             "description": "The languages that are spoken at locations or services. This does not include languages which can only be used with interpretation.",
-            "allOf": [
-                {
-                    "required": [
-                        "url"
-                    ]
-                }
-            ],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
@@ -1353,7 +1299,6 @@
             "name": "accessibility",
             "path": "accessibility.csv",
             "description": "The details of the arrangements for access to locations for people who have disabilities.",
-            "allOf": [],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
@@ -1449,7 +1394,6 @@
             "name": "taxonomy_term",
             "path": "taxonomy_terms.csv",
             "description": "Each service can be categorized according to one or more taxonomy terms. The taxonomy_term object contains a list of taxonomy terms, their names, and, for hierarchical taxonomies, their structure.",
-            "allOf": [],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
@@ -1546,13 +1490,6 @@
             "name": "cost_option",
             "path": "cost_options.csv",
             "description": "The costs of a service at certain points in time. This is an LGA Extension. This object provides a structured version of the text information contained in the 'fees' field of the 'service' object.",
-            "allOf": [
-                {
-                    "required": [
-                        "url"
-                    ]
-                }
-            ],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
@@ -1733,7 +1670,6 @@
             "name": "taxonomy",
             "path": "taxonomies.csv",
             "description": "The taxonomies from which taxonomy terms are taken.",
-            "allOf": [],
             "format": "csv",
             "mediatype": "text/csv",
             "profile": "tabular-data-resource",
