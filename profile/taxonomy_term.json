@@ -17,5 +17,9 @@
       "core": "Y"
     }	
    },
+   "required": [
+    "id",
+    "taxonomy"   
+   ],
    "allOf": null
 }

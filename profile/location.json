@@ -11,8 +11,7 @@
 	 "languages":null
    },
   "required": [
-    "id",
-    "location_type"
+    "id"
   ],
    "allOf": null
 }

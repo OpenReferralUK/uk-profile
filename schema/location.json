@@ -115,7 +115,6 @@
     }
   },
   "required": [
-    "id",
-    "location_type"
+    "id"
   ]
 }

@@ -651,8 +651,7 @@
         }
       },
       "required": [
-        "id",
-        "location_type"
+        "id"
       ]
     },
     "phone": {
@@ -1521,8 +1520,7 @@
       },
       "required": [
         "id",
-        "name",
-        "description"
+        "taxonomy"
       ]
     },
     "cost_option": {

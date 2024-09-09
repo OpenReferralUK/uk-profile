@@ -417,8 +417,7 @@
                         },
                         "required": [
                           "id",
-                          "name",
-                          "description"
+                          "taxonomy"
                         ],
                         "title": "Taxonomy Term"
                       }
@@ -665,8 +664,7 @@
                         },
                         "required": [
                           "id",
-                          "name",
-                          "description"
+                          "taxonomy"
                         ],
                         "title": "Taxonomy Term"
                       }
@@ -845,8 +843,7 @@
                   },
                   "required": [
                     "id",
-                    "name",
-                    "description"
+                    "taxonomy"
                   ],
                   "title": "Taxonomy Term"
                 }
@@ -863,8 +860,7 @@
           }
         },
         "required": [
-          "id",
-          "location_type"
+          "id"
         ],
         "title": "Location"
       },
@@ -1735,8 +1731,7 @@
                             },
                             "required": [
                               "id",
-                              "name",
-                              "description"
+                              "taxonomy"
                             ],
                             "title": "Taxonomy Term"
                           }
@@ -1909,8 +1904,7 @@
                       },
                       "required": [
                         "id",
-                        "name",
-                        "description"
+                        "taxonomy"
                       ],
                       "title": "Taxonomy Term"
                     }
@@ -2298,8 +2292,7 @@
                         },
                         "required": [
                           "id",
-                          "name",
-                          "description"
+                          "taxonomy"
                         ],
                         "title": "Taxonomy Term"
                       }
@@ -2467,8 +2460,7 @@
                   },
                   "required": [
                     "id",
-                    "name",
-                    "description"
+                    "taxonomy"
                   ],
                   "title": "Taxonomy Term"
                 }

@@ -1432,7 +1432,7 @@
                         "title": "Taxonomy",
                         "description": "If this is an established taxonomy, a free text description of which taxonomy is in use. If possible, provide a URI.",
                         "constraints": {
-                            "required": false,
+                            "required": true,
                             "unique": false
                         },
                         "example": "taxonomy",
