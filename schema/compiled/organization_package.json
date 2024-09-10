@@ -259,6 +259,27 @@
                         "example": "3f7b145d-84af-42d7-8fae-eaca714b02b2",
                         "core": "Y"
                       },
+                      "name": {
+                        "name": "name",
+                        "type": "string",
+                        "title": "Name",
+                        "description": "The taxonomy term itself.",
+                        "constraints": {
+                          "unique": false
+                        },
+                        "example": "name",
+                        "core": "Y"
+                      },
+                      "description": {
+                        "name": "description",
+                        "type": "string",
+                        "title": "Description",
+                        "description": "A free text description of the term.",
+                        "constraints": {
+                          "unique": false
+                        },
+                        "example": "description"
+                      },
                       "parent_id": {
                         "name": "parent_id",
                         "type": "string",
@@ -318,7 +339,8 @@
                     },
                     "required": [
                       "id",
-                      "taxonomy"
+                      "name",
+                      "description"
                     ],
                     "title": "Taxonomy Term"
                   }
@@ -432,6 +454,27 @@
                   "example": "3f7b145d-84af-42d7-8fae-eaca714b02b2",
                   "core": "Y"
                 },
+                "name": {
+                  "name": "name",
+                  "type": "string",
+                  "title": "Name",
+                  "description": "The taxonomy term itself.",
+                  "constraints": {
+                    "unique": false
+                  },
+                  "example": "name",
+                  "core": "Y"
+                },
+                "description": {
+                  "name": "description",
+                  "type": "string",
+                  "title": "Description",
+                  "description": "A free text description of the term.",
+                  "constraints": {
+                    "unique": false
+                  },
+                  "example": "description"
+                },
                 "parent_id": {
                   "name": "parent_id",
                   "type": "string",
@@ -491,7 +534,8 @@
               },
               "required": [
                 "id",
-                "taxonomy"
+                "name",
+                "description"
               ],
               "title": "Taxonomy Term"
             }
@@ -1076,6 +1120,22 @@
                         "example": "3a19ff88-4620-4d17-9830-ac1d859eb5d5",
                         "core": "Y"
                       },
+                      "location_type": {
+                        "name": "location_type",
+                        "type": "string",
+                        "title": "Location Type",
+                        "description": "The type of location, which may be either physical, postal, or virtual.",
+                        "constraints": {
+                          "unique": false
+                        },
+                        "example": "physical",
+                        "core": "Y",
+                        "enum": [
+                          "physical",
+                          "postal",
+                          "virtual"
+                        ]
+                      },
                       "name": {
                         "name": "name",
                         "type": "string",
@@ -1362,6 +1422,27 @@
                                         "example": "3f7b145d-84af-42d7-8fae-eaca714b02b2",
                                         "core": "Y"
                                       },
+                                      "name": {
+                                        "name": "name",
+                                        "type": "string",
+                                        "title": "Name",
+                                        "description": "The taxonomy term itself.",
+                                        "constraints": {
+                                          "unique": false
+                                        },
+                                        "example": "name",
+                                        "core": "Y"
+                                      },
+                                      "description": {
+                                        "name": "description",
+                                        "type": "string",
+                                        "title": "Description",
+                                        "description": "A free text description of the term.",
+                                        "constraints": {
+                                          "unique": false
+                                        },
+                                        "example": "description"
+                                      },
                                       "parent_id": {
                                         "name": "parent_id",
                                         "type": "string",
@@ -1421,7 +1502,8 @@
                                     },
                                     "required": [
                                       "id",
-                                      "taxonomy"
+                                      "name",
+                                      "description"
                                     ],
                                     "title": "Taxonomy Term"
                                   }
@@ -1609,6 +1691,27 @@
                                         "example": "3f7b145d-84af-42d7-8fae-eaca714b02b2",
                                         "core": "Y"
                                       },
+                                      "name": {
+                                        "name": "name",
+                                        "type": "string",
+                                        "title": "Name",
+                                        "description": "The taxonomy term itself.",
+                                        "constraints": {
+                                          "unique": false
+                                        },
+                                        "example": "name",
+                                        "core": "Y"
+                                      },
+                                      "description": {
+                                        "name": "description",
+                                        "type": "string",
+                                        "title": "Description",
+                                        "description": "A free text description of the term.",
+                                        "constraints": {
+                                          "unique": false
+                                        },
+                                        "example": "description"
+                                      },
                                       "parent_id": {
                                         "name": "parent_id",
                                         "type": "string",
@@ -1668,7 +1771,8 @@
                                     },
                                     "required": [
                                       "id",
-                                      "taxonomy"
+                                      "name",
+                                      "description"
                                     ],
                                     "title": "Taxonomy Term"
                                   }
@@ -1788,6 +1892,27 @@
                                   "example": "3f7b145d-84af-42d7-8fae-eaca714b02b2",
                                   "core": "Y"
                                 },
+                                "name": {
+                                  "name": "name",
+                                  "type": "string",
+                                  "title": "Name",
+                                  "description": "The taxonomy term itself.",
+                                  "constraints": {
+                                    "unique": false
+                                  },
+                                  "example": "name",
+                                  "core": "Y"
+                                },
+                                "description": {
+                                  "name": "description",
+                                  "type": "string",
+                                  "title": "Description",
+                                  "description": "A free text description of the term.",
+                                  "constraints": {
+                                    "unique": false
+                                  },
+                                  "example": "description"
+                                },
                                 "parent_id": {
                                   "name": "parent_id",
                                   "type": "string",
@@ -1847,7 +1972,8 @@
                               },
                               "required": [
                                 "id",
-                                "taxonomy"
+                                "name",
+                                "description"
                               ],
                               "title": "Taxonomy Term"
                             }
@@ -1864,7 +1990,8 @@
                       }
                     },
                     "required": [
-                      "id"
+                      "id",
+                      "location_type"
                     ],
                     "title": "Location"
                   }
@@ -2195,6 +2322,27 @@
                                   "example": "3f7b145d-84af-42d7-8fae-eaca714b02b2",
                                   "core": "Y"
                                 },
+                                "name": {
+                                  "name": "name",
+                                  "type": "string",
+                                  "title": "Name",
+                                  "description": "The taxonomy term itself.",
+                                  "constraints": {
+                                    "unique": false
+                                  },
+                                  "example": "name",
+                                  "core": "Y"
+                                },
+                                "description": {
+                                  "name": "description",
+                                  "type": "string",
+                                  "title": "Description",
+                                  "description": "A free text description of the term.",
+                                  "constraints": {
+                                    "unique": false
+                                  },
+                                  "example": "description"
+                                },
                                 "parent_id": {
                                   "name": "parent_id",
                                   "type": "string",
@@ -2254,7 +2402,8 @@
                               },
                               "required": [
                                 "id",
-                                "taxonomy"
+                                "name",
+                                "description"
                               ],
                               "title": "Taxonomy Term"
                             }
@@ -2368,6 +2517,27 @@
                             "example": "3f7b145d-84af-42d7-8fae-eaca714b02b2",
                             "core": "Y"
                           },
+                          "name": {
+                            "name": "name",
+                            "type": "string",
+                            "title": "Name",
+                            "description": "The taxonomy term itself.",
+                            "constraints": {
+                              "unique": false
+                            },
+                            "example": "name",
+                            "core": "Y"
+                          },
+                          "description": {
+                            "name": "description",
+                            "type": "string",
+                            "title": "Description",
+                            "description": "A free text description of the term.",
+                            "constraints": {
+                              "unique": false
+                            },
+                            "example": "description"
+                          },
                           "parent_id": {
                             "name": "parent_id",
                             "type": "string",
@@ -2427,7 +2597,8 @@
                         },
                         "required": [
                           "id",
-                          "taxonomy"
+                          "name",
+                          "description"
                         ],
                         "title": "Taxonomy Term"
                       }
@@ -2756,6 +2927,27 @@
                               "example": "3f7b145d-84af-42d7-8fae-eaca714b02b2",
                               "core": "Y"
                             },
+                            "name": {
+                              "name": "name",
+                              "type": "string",
+                              "title": "Name",
+                              "description": "The taxonomy term itself.",
+                              "constraints": {
+                                "unique": false
+                              },
+                              "example": "name",
+                              "core": "Y"
+                            },
+                            "description": {
+                              "name": "description",
+                              "type": "string",
+                              "title": "Description",
+                              "description": "A free text description of the term.",
+                              "constraints": {
+                                "unique": false
+                              },
+                              "example": "description"
+                            },
                             "parent_id": {
                               "name": "parent_id",
                               "type": "string",
@@ -2815,7 +3007,8 @@
                           },
                           "required": [
                             "id",
-                            "taxonomy"
+                            "name",
+                            "description"
                           ],
                           "title": "Taxonomy Term"
                         }
@@ -2924,6 +3117,27 @@
                         "example": "3f7b145d-84af-42d7-8fae-eaca714b02b2",
                         "core": "Y"
                       },
+                      "name": {
+                        "name": "name",
+                        "type": "string",
+                        "title": "Name",
+                        "description": "The taxonomy term itself.",
+                        "constraints": {
+                          "unique": false
+                        },
+                        "example": "name",
+                        "core": "Y"
+                      },
+                      "description": {
+                        "name": "description",
+                        "type": "string",
+                        "title": "Description",
+                        "description": "A free text description of the term.",
+                        "constraints": {
+                          "unique": false
+                        },
+                        "example": "description"
+                      },
                       "parent_id": {
                         "name": "parent_id",
                         "type": "string",
@@ -2983,7 +3197,8 @@
                     },
                     "required": [
                       "id",
-                      "taxonomy"
+                      "name",
+                      "description"
                     ],
                     "title": "Taxonomy Term"
                   }

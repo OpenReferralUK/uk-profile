@@ -1,8 +1,6 @@
 {
    "properties": {
      "code": null,
-     "name":null,
-     "description": null,
      "language":null,
      "taxonomy_detail":null,
     "term": {
@@ -17,9 +15,5 @@
       "core": "Y"
     }	
    },
-   "required": [
-    "id",
-    "taxonomy"   
-   ],
    "allOf": null
 }

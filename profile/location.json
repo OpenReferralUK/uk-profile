@@ -1,6 +1,5 @@
 {
    "properties": {
-     "location_type": null,
      "url": null,
      "organization_id": null,
      "alternate_name": null,
@@ -11,7 +10,8 @@
 	 "languages":null
    },
   "required": [
-    "id"
+    "id",
+	"location_type"
   ],
    "allOf": null
 }

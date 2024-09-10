@@ -1,2 +1,2 @@
-id,name,description,latitude,longitude,external_identifier,external_identifier_type
-3a19ff88-4620-4d17-9830-ac1d859eb5d5,MyCity Civic Center,MyCity Civic Center is located on Main Street and contains facilities for a number of civic and community services available.,100,101,10092008082,UPRN
+id,location_type,name,description,latitude,longitude,external_identifier,external_identifier_type
+3a19ff88-4620-4d17-9830-ac1d859eb5d5,physical,MyCity Civic Center,MyCity Civic Center is located on Main Street and contains facilities for a number of civic and community services available.,100,101,10092008082,UPRN

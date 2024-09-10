@@ -492,6 +492,23 @@
                         "core": "Y"
                     },
                     {
+                        "name": "location_type",
+                        "type": "string",
+                        "title": "Location Type",
+                        "description": "The type of location, which may be either physical, postal, or virtual.",
+                        "constraints": {
+                            "required": true,
+                            "unique": false,
+                            "enum": [
+                                "physical",
+                                "postal",
+                                "virtual"
+                            ]
+                        },
+                        "example": "physical",
+                        "core": "Y"
+                    },
+                    {
                         "name": "name",
                         "type": "string",
                         "title": "Name",
@@ -1414,6 +1431,29 @@
                         "core": "Y"
                     },
                     {
+                        "name": "name",
+                        "type": "string",
+                        "title": "Name",
+                        "description": "The taxonomy term itself.",
+                        "constraints": {
+                            "required": true,
+                            "unique": false
+                        },
+                        "example": "name",
+                        "core": "Y"
+                    },
+                    {
+                        "name": "description",
+                        "type": "string",
+                        "title": "Description",
+                        "description": "A free text description of the term.",
+                        "constraints": {
+                            "required": true,
+                            "unique": false
+                        },
+                        "example": "description"
+                    },
+                    {
                         "name": "parent_id",
                         "type": "string",
                         "title": "Parent Identifier",
@@ -1432,7 +1472,7 @@
                         "title": "Taxonomy",
                         "description": "If this is an established taxonomy, a free text description of which taxonomy is in use. If possible, provide a URI.",
                         "constraints": {
-                            "required": true,
+                            "required": false,
                             "unique": false
                         },
                         "example": "taxonomy",
