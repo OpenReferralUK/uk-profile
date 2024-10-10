@@ -1,6 +1,6 @@
 # Changelog
 
-This section contains changes that are specific to the requirements for achieving UK compliance. For a list of changes to the broader HSDS standard, please see the [Changelog](changelog) page.
+This section contains changes that are specific to the requirements for achieving UK compliance. For a list of changes to the broader HSDS standard, please see the [Changelog](https://docs.openreferral.org/en/latest/hsds/changelog.html) page.
 
 ## v3.0
 
